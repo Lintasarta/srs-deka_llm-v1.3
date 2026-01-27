@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: srs-deka-llm
+  description: SRS Deka LLM Feature Enhancement: Alerting, Coin Dashboard, Coin Voucher
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Lintasarta/srs-deka_llm-v1.3
+    # PERHATIKAN INDENTASI: Baris di bawah if harus sejajar dengan github.com...
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/afi
