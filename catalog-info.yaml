@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: srs-deka-llm
   description: SRS Deka LLM Feature Enhancement: Alerting, Coin Dashboard, Coin Voucher
+  tags: ["srs"]
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Lintasarta/srs-deka_llm-v1.3
